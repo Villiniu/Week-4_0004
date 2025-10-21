@@ -8,6 +8,9 @@ public class learnvariable {
        Scanner newScan = new Scanner(System.in)
        System.err.println("Masukan Umur = ");
        umur = newScan.nextInt();
-       
+
+       System.err.println("Masukan nama = ");
+       nama = newScan.nextLine();
+
     }
 }
